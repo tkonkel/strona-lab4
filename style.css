@@ -1,0 +1,82 @@
+body{
+	background-color: silver;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+div.container{
+	width: 85.5%;
+	margin: auto;
+	padding: 0 15px;
+}
+div.main-content{
+	width: 100%;
+	float: right;
+	}
+div.footer{
+	text-align: center;
+	opacity: 0.3;
+}
+div.logo{
+	background-color: white;
+	font-size: 80px;
+	width: 1140px;
+    height: 100px;
+}
+
+nav ul{
+	list-style: none;
+	overflow: auto;
+	border-top-style: outset;
+	border-color: grey;
+}
+nav ul li{
+	float: left;
+	margin-right: 4%;
+	margin-left: 4%;
+	height: 30px;
+	padding-top: 10px;
+	border-bottom-style: outset;
+	border-color: red;
+	
+}
+nav ul li a{
+	text-decoration: none;
+
+}
+h2{
+	border-top-style: double;
+	border-color: red;
+}
+h3{
+	border-top-style: groove;
+	border-color: black;
+}
+
+article{
+	padding: 10px;
+	text-align: justify;
+}
+img{
+	float: left;
+    margin-right: 10px;
+}
+div#foto{
+	float: right;
+	margin-left: 10px;
+}
+div.gallery{
+	overflow: auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+article, aside, footer, header, section, main-content, content, nav{
+	display: block;
+}
+article, header, footer, aside, main-content, content, nav{
+	background: rgba(255, 255, 255, 0.7);
+
+}
